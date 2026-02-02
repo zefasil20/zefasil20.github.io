@@ -1,110 +1,208 @@
-<!-- Animated Name -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=30&duration=3000&pause=1000&color=4F9DFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Zefasil+Mulu;Software+Engineering+Student;Java+%7C+OOP+%7C+JavaFX;Backend+|+Mobile+App+Developer;Android+%7C+iOS+%7C+Flutter" alt="Typing Animation" />
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zefasil Mulu | Software Engineering Student</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --gray: #64748b;
+    }
 
-<!-- Portfolio Link -->
-<h2></h2><p align="center">
-  🌐 [✨ Portfolio ✨](https://zefasil20.github.io)
-</p></h2>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
----
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
 
-## 👨‍💻 About Me
-- 🎓 **4th-year Software Engineering student** at Bahir Dar University  
-- ☕ Solid foundation in **Java & Object-Oriented Programming**  
-- 🧱 Experience developing **JavaFX desktop applications** using MVC  
-- 🧪 Familiar with **Software Testing, Verification & QA**  
-- 🌐 Academic background in **Distributed Systems** (RMI, replication, consistency)  
-- 💾 Basic backend development with **PHP & MySQL**  
-- 📐 Comfortable with **UML modeling** (class diagrams, relationships)  
-- 🧠 Fast learner, receptive to feedback, and eager to grow in real-world teams  
-- 🤝 Built a **Flutter-based mobile application** collaboratively with friends and published the code on GitHub  
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: white;
+    }
 
----
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
 
-## 🛠️ Technical Skills
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-### 🔹 Programming Languages
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="55" title="Java" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="55" title="PHP" />
-  <img src="https://img.icons8.com/color/96/flutter.png" width="55" title="Flutter" />
-  <img src="https://img.icons8.com/color/96/dart.png" width="55" title="Dart" />
-</p>
+    section {
+      padding: 4rem 10%;
+    }
 
-- Java (OOP, Collections, Exception Handling)  
-- PHP (basic backend logic)  
-- Flutter & Dart (team project experience)
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
 
----
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
 
-### 🔹 Application & System Development
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="55" title="JavaFX" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="55" title="MySQL / Database Design" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="55" title="REST APIs (Conceptual / Basic)" />
-</p>
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
 
-- JavaFX (FXML, Controllers, SceneBuilder)  
-- MVC architecture  
-- Database-driven applications  
-- Basic REST API concepts  
+    ul {
+      list-style: none;
+    }
 
----
+    ul li {
+      margin-bottom: 0.6rem;
+      color: var(--gray);
+    }
 
-### 🔹 Software Engineering Knowledge
-- Object-Oriented Analysis & Design  
-- UML (Class Diagrams, Associations, Dependencies)  
-- Software Testing & Quality Assurance  
-- Distributed Systems fundamentals  
-- Version control & collaboration workflows  
+    .skills span {
+      display: inline-block;
+      background: #e0e7ff;
+      color: var(--primary);
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      margin: 0.3rem;
+      font-size: 0.85rem;
+    }
 
----
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: var(--dark);
+      color: white;
+    }
 
-### 🧰 Tools & Environment
-<p align="left">
-  <img src="https://img.icons8.com/color/96/intellij-idea.png" width="55" title="IntelliJ IDEA" />
-  <img src="https://img.icons8.com/color/96/visual-studio-code-2019.png" width="55" title="VS Code" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="55" title="Git" />
-  <img src="https://img.icons8.com/color/96/github--v1.png" width="55" title="GitHub" />
-  <img src="https://img.icons8.com/color/96/mysql-logo.png" width="55" title="MySQL" />
-</p>
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
 
----
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 3rem 6%;
+      }
+    }
+  </style>
+</head>
+<body>
 
-## 📌 Academic & Practice Projects
-- JavaFX desktop applications using MVC architecture  
-- UML modeling for multi-controller systems  
-- Software testing metrics & test case design  
-- Distributed system design analysis  
-- Java RMI programming exercises  
-- Collaborative Flutter mobile application (team project, GitHub-hosted)  
+<header>
+  <div>
+    <h1>Zefasil Mulu</h1>
+    <p>Software Engineering Student at Bahir Dar University<br>
+    <strong>Actively learning Software Engineering</strong></p>
+  </div>
+</header>
 
-> 📍 *Project repositories demonstrate structure, clarity, and understanding rather than production-level scale.*
+<section>
+  <h2>About Me</h2>
+  <p>
+    I am a motivated Software Engineering student with strong foundations in Java, Object‑Oriented Programming, and JavaFX.
+    I enjoy building structured applications, applying clean architecture principles, and learning how real‑world software systems work.
+  </p>
+</section>
 
----
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <span>Java</span><span>OOP</span><span>JavaFX</span><span>MVC</span>
+    <span>Flutter</span><span>Dart</span><span>PHP</span><span>MySQL</span>
+    <span>UML</span><span>Software Testing</span><span>Distributed Systems</span>
+    <span>Git</span><span>GitHub</span>
+  </div>
+</section>
 
-## 🎯 Internship Focus
-I am looking for internships where I can:  
-- Contribute to **Java / backend / desktop applications**  
-- Learn from experienced engineers  
-- Improve code quality, testing, and system design skills  
-- Work in collaborative development environments  
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>JavaFX Desktop Application</h3>
+      <p>
+        Academic project developed using MVC architecture. Focused on clean separation of concerns,
+        database connectivity, and UML‑based design.
+      </p>
+      <ul>
+        <li>Java & JavaFX</li>
+        <li>MySQL</li>
+        <li>UML Modeling</li>
+      </ul>
+    </div>
 
----
+    <div class="card">
+      <h3>Flutter Mobile Application (Team Project)</h3>
+      <p>
+        Collaboratively built a Flutter mobile app with friends and managed the project on GitHub.
+        Gained experience in teamwork and version control.
+      </p>
+      <ul>
+        <li>Flutter & Dart</li>
+        <li>Git & GitHub</li>
+        <li>Team Collaboration</li>
+      </ul>
+    </div>
 
-## 📈 GitHub Activity
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zefasil20&theme=tokyo-night&hide_border=true" />
-</p>
+    <div class="card">
+      <h3>Software Testing & Distributed Systems</h3>
+      <p>
+        Completed academic exercises covering software testing metrics, test case design,
+        Java RMI, replication strategies, and consistency models.
+      </p>
+      <ul>
+        <li>Software Testing & QA</li>
+        <li>Java RMI</li>
+        <li>System Design</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
----
+<section>
+  <h2>Internship Goal</h2>
+  <p>
+    I am seeking an internship where I can contribute to Java, backend, or desktop/mobile application development,
+    while learning professional workflows and best practices from experienced engineers.
+  </p>
+</section>
 
-## 🌐 Contact
-- 📧 **Email:** zefasilmulu@gmail.com  
-- 💼 **LinkedIn:** [Zefasil Mulu](https://www.linkedin.com/in/zefasil-mulu-2a9a5934b/)  
+<footer>
+  <p>
+    📧 Email: your.email@example.com | 
+    <a href="https://github.com/ZefasilMulu" target="_blank">GitHub</a> | 
+    LinkedIn: <a href="https://www.linkedin.com/in/zefasil-mulu-2a9a5934b/" target="_blank">Zefasil Mulu<a/>
+  </p>
+</footer>
 
----
+</body>
+</html>
 
-⭐ *Motivated student developer preparing for real-world software engineering challenges.*
