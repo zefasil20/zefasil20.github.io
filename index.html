@@ -1,3 +1,241 @@
+<<<<<<< HEAD
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#111512">
+  <meta name="description" content="Zefasil Mulu is a Software Engineering student interested in full-stack development, backend systems, and building practical software.">
+  <meta property="og:title" content="Zefasil Mulu — Software Engineer in Progress">
+  <meta property="og:description" content="Projects, engineering interests, and selected work by Zefasil Mulu.">
+  <meta property="og:type" content="website">
+  <title>Zefasil Mulu — Software Engineer</title>
+
+  <!-- Set the saved/system theme before the stylesheet paints to reduce theme flash. -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("portfolio-theme");
+        var preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = saved || preferred;
+      } catch (_) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Zefasil Mulu home">
+        <span class="brand-mark">ZM<span>.</span></span>
+        <span class="brand-caption">SOFTWARE ENGINEERING</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="true" aria-label="Switch to light theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 14.1A8.5 8.5 0 0 1 9.9 3.2 8.6 8.6 0 1 0 20.8 14.1Z"></path></svg>
+          <span class="theme-label">Theme</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> BASED IN ETHIOPIA <span class="eyebrow-divider">/</span> OPEN TO OPPORTUNITIES</p>
+        <h1 id="hero-title">I build practical software <span class="text-accent">for real problems.</span></h1>
+        <p class="hero-lede">
+          I'm Zefasil Mulu, a Software Engineering student at Bahir Dar University exploring full-stack development,
+          backend systems, and thoughtful application design.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-links" aria-label="Professional links">
+          <a href="https://github.com/zefasil20" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/zefasil-mulu-2a9a5934b/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="mailto:zefasilmulu@gmail.com">Email <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Current engineering focus">
+        <div class="panel-topline">
+          <span class="mono-label">CURRENT FOCUS</span>
+          <span class="panel-indicator"><span class="status-dot"></span> LEARNING / BUILDING</span>
+        </div>
+        <div class="focus-block">
+          <span class="focus-index">01</span>
+          <div><h2>Full-stack web development</h2><p>Building foundations across interfaces, application logic, and data.</p></div>
+        </div>
+        <div class="focus-block">
+          <span class="focus-index">02</span>
+          <div><h2>Backend engineering</h2><p>Learning how APIs, databases, and system structure fit together.</p></div>
+        </div>
+        <div class="focus-block">
+          <span class="focus-index">03</span>
+          <div><h2>Engineering fundamentals</h2><p>Object-oriented design, testing, collaboration, and maintainable code.</p></div>
+        </div>
+        <div class="panel-footer"><span>BUILD WITH INTENTION</span><span>↘</span></div>
+      </aside>
+
+      <div class="hero-bottom-note"><span class="line"></span><span>SELECTED WORK & ENGINEERING NOTES</span></div>
+    </section>
+
+    <section class="section-wrap section-block" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Projects & practice</h2></div>
+        <p class="section-intro">A selection of academic and collaborative work that has helped me practice application structure, teamwork, and core engineering concepts.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-visual visual-java" aria-hidden="true">
+            <div class="window-chrome"><span></span><span></span><span></span><small>application.java</small></div>
+            <div class="code-art">
+              <span class="code-line line-short"></span><span class="code-line line-long"></span>
+              <span class="code-line line-mid"></span><span class="code-line line-longer"></span>
+              <span class="code-line line-shorter"></span><span class="code-line line-mid"></span>
+            </div>
+            <span class="visual-tag">MVC / DATA</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>ACADEMIC PROJECT</span><span>01</span></div>
+            <h3>JavaFX Desktop Application</h3>
+            <p>Academic application focused on MVC architecture, database connectivity, and UML-based design, with an emphasis on separating responsibilities.</p>
+            <div class="tag-list"><span>Java</span><span>JavaFX</span><span>MySQL</span><span>UML</span></div>
+            <p class="project-note">Focus: application structure and separation of concerns.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-flutter" aria-hidden="true">
+            <div class="phone-art"><div class="phone-speaker"></div><div class="phone-top"></div><div class="phone-card"></div><div class="phone-card short"></div><div class="phone-nav"></div></div>
+            <span class="visual-tag">MOBILE / TEAMWORK</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>TEAM PROJECT</span><span>02</span></div>
+            <h3>Flutter Mobile Application</h3>
+            <p>Collaborative mobile-app work that introduced practical teamwork, source control, and coordinating changes through GitHub.</p>
+            <div class="tag-list"><span>Flutter</span><span>Dart</span><span>Git</span><span>GitHub</span></div>
+            <p class="project-note">Focus: collaboration and version control.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-systems" aria-hidden="true">
+            <div class="node node-a">Client</div><div class="node node-b">Service</div><div class="node node-c">Replica</div>
+            <span class="connector connector-a"></span><span class="connector connector-b"></span>
+            <span class="visual-tag">QUALITY / SYSTEMS</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>COURSEWORK</span><span>03</span></div>
+            <h3>Testing & Distributed Systems</h3>
+            <p>Academic exercises covering test-case design, software-testing metrics, Java RMI, replication strategies, and consistency models.</p>
+            <div class="tag-list"><span>QA</span><span>Java RMI</span><span>System Design</span></div>
+            <p class="project-note">Focus: reliability, testing, and distributed concepts.</p>
+          </div>
+        </article>
+      </div>
+      <p class="work-footnote"><span class="footnote-mark">i</span> These entries describe academic and collaborative work. Repository and live-demo links can be added when the corresponding public projects are confirmed.</p>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="section-wrap about-layout">
+        <div class="about-heading"><p class="eyebrow">02 / ABOUT</p><h2 id="about-title">Learning by building. Improving through iteration.</h2></div>
+        <div class="about-copy">
+          <p class="about-lead">I care about understanding how software works—not only getting it to run.</p>
+          <p>My Software Engineering studies have given me a foundation in object-oriented programming, application architecture, testing, and system concepts. I'm extending that foundation through hands-on web development and backend learning.</p>
+          <p>I value clear problem-solving, maintainable code, useful feedback, and collaboration. I'm looking for opportunities to contribute, learn professional workflows, and grow into a dependable software engineer.</p>
+          <div class="principles-grid">
+            <div><span class="principle-number">01</span><h3>Understand the problem</h3><p>Clarify the need before choosing the implementation.</p></div>
+            <div><span class="principle-number">02</span><h3>Keep it maintainable</h3><p>Prefer clear structure and understandable decisions.</p></div>
+            <div><span class="principle-number">03</span><h3>Learn in public</h3><p>Share progress, lessons, and useful technical notes.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="toolkit" aria-labelledby="toolkit-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / TOOLKIT</p><h2 id="toolkit-title">Tools & foundations</h2></div>
+        <p class="section-intro">Technologies and concepts from my current experience. This list is intentionally focused on what I've studied or used, rather than an exhaustive list of tools.</p>
+      </div>
+      <div class="toolkit-grid">
+        <article class="toolkit-card">
+          <span class="toolkit-icon">01</span><h3>Programming & UI</h3>
+          <p>Application development and interface fundamentals.</p>
+          <div class="tag-list"><span>Java</span><span>OOP</span><span>JavaFX</span><span>Flutter</span><span>Dart</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="toolkit-card">
+          <span class="toolkit-icon">02</span><h3>Data & architecture</h3>
+          <p>Working with structured data and application design.</p>
+          <div class="tag-list"><span>MySQL</span><span>MVC</span><span>UML</span><span>Database connectivity</span></div>
+        </article>
+        <article class="toolkit-card">
+          <span class="toolkit-icon">03</span><h3>Engineering practice</h3>
+          <p>Fundamentals that support reliable software delivery.</p>
+          <div class="tag-list"><span>Software testing</span><span>Git</span><span>GitHub</span><span>Distributed systems</span><span>Team collaboration</span></div>
+        </article>
+      </div>
+      <p class="learning-note"><span class="status-dot"></span> CURRENT DIRECTION <span>Deepening JavaScript and full-stack web development, including backend concepts.</span></p>
+    </section>
+
+    <section class="opportunity-section" aria-labelledby="opportunity-title">
+      <div class="section-wrap opportunity-layout">
+        <div><p class="eyebrow">04 / WHAT'S NEXT</p><h2 id="opportunity-title">Open to learning, contributing, and building.</h2></div>
+        <div><p>I'm interested in internship opportunities, collaborative software projects, and carefully scoped freelance work where I can contribute honestly, communicate clearly, and keep improving.</p><a class="text-link" href="#contact">Let's talk about a project <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div class="contact-main">
+          <p class="eyebrow">05 / CONTACT</p>
+          <h2 id="contact-title">Have a problem worth solving?</h2>
+          <p>For opportunities, collaboration, or a project conversation, email is the best way to reach me.</p>
+          <a class="button button-primary" href="mailto:zefasilmulu@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:zefasilmulu@gmail.com"><span>Email</span><strong>zefasilmulu@gmail.com</strong><span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/zefasil20" target="_blank" rel="noopener noreferrer"><span>Code</span><strong>GitHub profile</strong><span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/zefasil-mulu-2a9a5934b/" target="_blank" rel="noopener noreferrer"><span>Professional</span><strong>LinkedIn profile</strong><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-wrap footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">ZM<span>.</span></span></a>
+      <p>Designed with intention. Built to keep improving.</p>
+      <p>© <span id="current-year">2026</span> Zefasil Mulu</p>
+    </div>
+  </footer>
+
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,3 +444,4 @@
 </body>
 </html>
 
+>>>>>>> 3dce8c9937768e962c7cce4bccd6d4d8ef175406
